@@ -38,6 +38,7 @@
 		D78A374815675C0E00E6BC94 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78A374715675C0E00E6BC94 /* MainViewController.m */; };
 		D78A374A15675C0E00E6BC94 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78A374915675C0E00E6BC94 /* MainViewController.xib */; };
 		D78A374E15675C0E00E6BC94 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = D78A374D15675C0E00E6BC94 /* verify.sh */; };
+		D78A375515675D2B00E6BC94 /* www in Resources */ = {isa = PBXBuildFile; fileRef = D78A375415675D2B00E6BC94 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,10 @@
 		D78A371015675C0C00E6BC94 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D78A371215675C0C00E6BC94 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D78A371415675C0C00E6BC94 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		D78A371815675C0C00E6BC94 /* taozhuli-Info.plist */ = {isa = PBXFileReference; path = "taozhuli-Info.plist"; sourceTree = "<group>"; };
+		D78A371815675C0C00E6BC94 /* taozhuli-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "taozhuli-Info.plist"; sourceTree = "<group>"; };
 		D78A371A15675C0C00E6BC94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D78A371C15675C0C00E6BC94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D78A371E15675C0C00E6BC94 /* taozhuli-Prefix.pch */ = {isa = PBXFileReference; path = "taozhuli-Prefix.pch"; sourceTree = "<group>"; };
+		D78A371E15675C0C00E6BC94 /* taozhuli-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "taozhuli-Prefix.pch"; sourceTree = "<group>"; };
 		D78A371F15675C0C00E6BC94 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		D78A372415675C0C00E6BC94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D78A372815675C0C00E6BC94 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +72,14 @@
 		D78A373C15675C0D00E6BC94 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		D78A373E15675C0D00E6BC94 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		D78A374015675C0D00E6BC94 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		D78A374315675C0E00E6BC94 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		D78A374315675C0E00E6BC94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		D78A374415675C0E00E6BC94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		D78A374615675C0E00E6BC94 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		D78A374615675C0E00E6BC94 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		D78A374715675C0E00E6BC94 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		D78A374915675C0E00E6BC94 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		D78A374C15675C0E00E6BC94 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		D78A374C15675C0E00E6BC94 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		D78A374D15675C0E00E6BC94 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		D78A375415675D2B00E6BC94 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		D78A36EA15675C0B00E6BC94 = {
 			isa = PBXGroup;
 			children = (
+				D78A375415675D2B00E6BC94 /* www */,
 				D78A371615675C0C00E6BC94 /* taozhuli */,
 				D78A36FB15675C0C00E6BC94 /* Frameworks */,
 				D78A36F915675C0C00E6BC94 /* Products */,
@@ -330,6 +333,7 @@
 				D78A374115675C0D00E6BC94 /* Cordova.plist in Resources */,
 				D78A374A15675C0E00E6BC94 /* MainViewController.xib in Resources */,
 				D78A374E15675C0E00E6BC94 /* verify.sh in Resources */,
+				D78A375515675D2B00E6BC94 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
