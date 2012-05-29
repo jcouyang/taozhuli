@@ -52,6 +52,8 @@
 		<string>CDVSplashScreen</string>
 		<key>Battery</key>
 		<string>CDVBattery</string>
+		<key>com.cordova.barcodeScanner</key>
+		<string>CDVBarcodeScanner</string>
 	</dict>
 </dict>
 </plist>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D789D80B157371B200D0C82A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D789D808157371B200D0C82A /* AssetsLibrary.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D789D80C157371B200D0C82A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D789D809157371B200D0C82A /* CoreVideo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D789D80D157371B200D0C82A /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D789D80A157371B200D0C82A /* libiconv.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D78A36FD15675C0C00E6BC94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78A36FC15675C0C00E6BC94 /* Foundation.framework */; };
 		D78A36FF15675C0C00E6BC94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78A36FE15675C0C00E6BC94 /* UIKit.framework */; };
 		D78A370115675C0C00E6BC94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78A370015675C0C00E6BC94 /* CoreGraphics.framework */; };
@@ -39,9 +42,14 @@
 		D78A374A15675C0E00E6BC94 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78A374915675C0E00E6BC94 /* MainViewController.xib */; };
 		D78A374E15675C0E00E6BC94 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = D78A374D15675C0E00E6BC94 /* verify.sh */; };
 		D78A375515675D2B00E6BC94 /* www in Resources */ = {isa = PBXBuildFile; fileRef = D78A375415675D2B00E6BC94 /* www */; };
+		D7FD8E301574CBC20059E3AA /* CDVBarcodeScanner.mm in Sources */ = {isa = PBXBuildFile; fileRef = D7FD8E2D1574CBC20059E3AA /* CDVBarcodeScanner.mm */; };
+		D7FD8E311574CBC20059E3AA /* zxing-all-in-one.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7FD8E2E1574CBC20059E3AA /* zxing-all-in-one.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D789D808157371B200D0C82A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D789D809157371B200D0C82A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D789D80A157371B200D0C82A /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		D78A36F815675C0C00E6BC94 /* taozhuli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taozhuli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78A36FC15675C0C00E6BC94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D78A36FE15675C0C00E6BC94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -80,6 +88,9 @@
 		D78A374C15675C0E00E6BC94 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		D78A374D15675C0E00E6BC94 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
 		D78A375415675D2B00E6BC94 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		D7FD8E2D1574CBC20059E3AA /* CDVBarcodeScanner.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CDVBarcodeScanner.mm; path = "../../phonegap-plugins/iOS/BarcodeScanner/CDVBarcodeScanner.mm"; sourceTree = "<group>"; };
+		D7FD8E2E1574CBC20059E3AA /* zxing-all-in-one.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "zxing-all-in-one.cpp"; path = "../../phonegap-plugins/iOS/BarcodeScanner/zxing-all-in-one.cpp"; sourceTree = "<group>"; };
+		D7FD8E2F1574CBC20059E3AA /* zxing-all-in-one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "zxing-all-in-one.h"; path = "../../phonegap-plugins/iOS/BarcodeScanner/zxing-all-in-one.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +98,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D789D80C157371B200D0C82A /* CoreVideo.framework in Frameworks */,
+				D789D80B157371B200D0C82A /* AssetsLibrary.framework in Frameworks */,
+				D789D80D157371B200D0C82A /* libiconv.dylib in Frameworks */,
 				D78A36FD15675C0C00E6BC94 /* Foundation.framework in Frameworks */,
 				D78A36FF15675C0C00E6BC94 /* UIKit.framework in Frameworks */,
 				D78A370115675C0C00E6BC94 /* CoreGraphics.framework in Frameworks */,
@@ -135,6 +149,9 @@
 		D78A36FB15675C0C00E6BC94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D789D809157371B200D0C82A /* CoreVideo.framework */,
+				D789D80A157371B200D0C82A /* libiconv.dylib */,
+				D789D808157371B200D0C82A /* AssetsLibrary.framework */,
 				D78A36FC15675C0C00E6BC94 /* Foundation.framework */,
 				D78A36FE15675C0C00E6BC94 /* UIKit.framework */,
 				D78A370015675C0C00E6BC94 /* CoreGraphics.framework */,
@@ -257,6 +274,9 @@
 		D78A374B15675C0E00E6BC94 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				D7FD8E2D1574CBC20059E3AA /* CDVBarcodeScanner.mm */,
+				D7FD8E2E1574CBC20059E3AA /* zxing-all-in-one.cpp */,
+				D7FD8E2F1574CBC20059E3AA /* zxing-all-in-one.h */,
 				D78A374C15675C0E00E6BC94 /* README */,
 			);
 			name = Plugins;
@@ -275,6 +295,7 @@
 				D78A36F415675C0B00E6BC94 /* Sources */,
 				D78A36F515675C0B00E6BC94 /* Frameworks */,
 				D78A36F615675C0B00E6BC94 /* ShellScript */,
+				50524F424C454D533F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -340,6 +361,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
 		D78A36F615675C0B00E6BC94 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,6 +397,8 @@
 				D78A371D15675C0C00E6BC94 /* main.m in Sources */,
 				D78A374515675C0E00E6BC94 /* AppDelegate.m in Sources */,
 				D78A374815675C0E00E6BC94 /* MainViewController.m in Sources */,
+				D7FD8E301574CBC20059E3AA /* CDVBarcodeScanner.mm in Sources */,
+				D7FD8E311574CBC20059E3AA /* zxing-all-in-one.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +463,7 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -454,7 +490,7 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -547,6 +583,7 @@
 				D78A375315675C0E00E6BC94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

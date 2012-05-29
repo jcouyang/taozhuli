@@ -20,7 +20,6 @@
  specific language governing permissions and limitations
  under the License.
 */
-
 ;(function() {
 
 // file: lib/scripts/require.js
