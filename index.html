@@ -7,7 +7,12 @@
     <meta name="description" content="Taozhuli : Taobao Mobile For Seller" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-  <script>window.close();</script>
+ <script language="javascript" type="text/javascript">
+function closeWindow() {
+window.open('','_parent','');
+window.close();
+}
+</script>
     <title>Taozhuli</title>
   </head>
 
@@ -20,7 +25,7 @@
 
           <h1 id="project_title">Taozhuli</h1>
           <h2 id="project_tagline">Taobao Mobile For Seller</h2>
-
+<a href="javascript:closeWindow();">Close Window</a>
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/geogeo/taozhuli/zipball/master">Download this project as a .zip file</a>
               <a class="tar_download_link" href="https://github.com/geogeo/taozhuli/tarball/master">Download this project as a tar.gz file</a>
