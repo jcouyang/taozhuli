@@ -8,8 +8,10 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
  <script language="javascript" type="text/javascript">
- opener.location.reload(); // or opener.location.href = opener.location.href;
-  self.close();
+ window.close();
+if (window.opener && !window.opener.closed) {
+      window.opener.location.reload();
+ } 
 </script>
     <title>Taozhuli</title>
   </head>
