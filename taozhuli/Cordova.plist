@@ -9,7 +9,7 @@
 	<key>EnableLocation</key>
 	<false/>
 	<key>EnableViewportScale</key>
-	<false/>
+	<true/>
 	<key>AutoHideSplashScreen</key>
 	<true/>
 	<key>ShowSplashScreenSpinner</key>
@@ -19,9 +19,18 @@
 	<key>AllowInlineMediaPlayback</key>
 	<false/>
 	<key>OpenAllWhitelistURLsInWebView</key>
-	<false/>
+	<true/>
 	<key>ExternalHosts</key>
-	<array/>
+	<array>
+		<string>*.m.taobao.com</string>
+		<string>*.taobao.com</string>
+		<string>*.taobaocdn.com</string>
+		<string>*.google.cn</string>
+		<string>*.google.com</string>
+		<string>*.huanduoduo.com</string>
+		<string>*</string>
+		<string>*.github.com</string>
+	</array>
 	<key>Plugins</key>
 	<dict>
 		<key>Compass</key>
@@ -54,6 +63,8 @@
 		<string>CDVBattery</string>
 		<key>com.cordova.barcodeScanner</key>
 		<string>CDVBarcodeScanner</string>
+		<key>ChildBrowserCommand</key>
+		<string>ChildBrowserCommand</string>
 	</dict>
 </dict>
 </plist>

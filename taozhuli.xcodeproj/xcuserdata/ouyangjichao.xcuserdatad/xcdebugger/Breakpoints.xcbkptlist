@@ -9,12 +9,12 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "www/js/taobao.js"
-         timestampString = "359967848.29916"
+         timestampString = "360139298.813611"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "148"
-         endingLineNumber = "148"
-         landmarkName = "scan"
+         startingLineNumber = "162"
+         endingLineNumber = "162"
+         landmarkName = "getSoldList"
          landmarkType = "7">
       </FileBreakpoint>
       <FileBreakpoint
@@ -23,11 +23,13 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "www/js/taobao.js"
-         timestampString = "359967848.29916"
+         timestampString = "360139298.813611"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "219"
-         endingLineNumber = "219">
+         startingLineNumber = "233"
+         endingLineNumber = "233"
+         landmarkName = "scan"
+         landmarkType = "7">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"

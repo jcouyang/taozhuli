@@ -44,6 +44,10 @@
 		D78A375515675D2B00E6BC94 /* www in Resources */ = {isa = PBXBuildFile; fileRef = D78A375415675D2B00E6BC94 /* www */; };
 		D7FD8E301574CBC20059E3AA /* CDVBarcodeScanner.mm in Sources */ = {isa = PBXBuildFile; fileRef = D7FD8E2D1574CBC20059E3AA /* CDVBarcodeScanner.mm */; };
 		D7FD8E311574CBC20059E3AA /* zxing-all-in-one.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7FD8E2E1574CBC20059E3AA /* zxing-all-in-one.cpp */; };
+		D7FD8E381574CF6E0059E3AA /* ChildBrowserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FD8E341574CF6D0059E3AA /* ChildBrowserCommand.m */; };
+		D7FD8E391574CF6E0059E3AA /* ChildBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FD8E361574CF6E0059E3AA /* ChildBrowserViewController.m */; };
+		D7FD8E3A1574CF6E0059E3AA /* ChildBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7FD8E371574CF6E0059E3AA /* ChildBrowserViewController.xib */; };
+		D7FD8E3C1574D01F0059E3AA /* ChildBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D7FD8E3B1574D01F0059E3AA /* ChildBrowser.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +95,12 @@
 		D7FD8E2D1574CBC20059E3AA /* CDVBarcodeScanner.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CDVBarcodeScanner.mm; path = "../../phonegap-plugins/iOS/BarcodeScanner/CDVBarcodeScanner.mm"; sourceTree = "<group>"; };
 		D7FD8E2E1574CBC20059E3AA /* zxing-all-in-one.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "zxing-all-in-one.cpp"; path = "../../phonegap-plugins/iOS/BarcodeScanner/zxing-all-in-one.cpp"; sourceTree = "<group>"; };
 		D7FD8E2F1574CBC20059E3AA /* zxing-all-in-one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "zxing-all-in-one.h"; path = "../../phonegap-plugins/iOS/BarcodeScanner/zxing-all-in-one.h"; sourceTree = "<group>"; };
+		D7FD8E331574CF6D0059E3AA /* ChildBrowserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChildBrowserCommand.h; path = "../../phonegap-plugins/iOS/ChildBrowser/ChildBrowserCommand.h"; sourceTree = "<group>"; };
+		D7FD8E341574CF6D0059E3AA /* ChildBrowserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChildBrowserCommand.m; path = "../../phonegap-plugins/iOS/ChildBrowser/ChildBrowserCommand.m"; sourceTree = "<group>"; };
+		D7FD8E351574CF6D0059E3AA /* ChildBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChildBrowserViewController.h; path = "../../phonegap-plugins/iOS/ChildBrowser/ChildBrowserViewController.h"; sourceTree = "<group>"; };
+		D7FD8E361574CF6E0059E3AA /* ChildBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChildBrowserViewController.m; path = "../../phonegap-plugins/iOS/ChildBrowser/ChildBrowserViewController.m"; sourceTree = "<group>"; };
+		D7FD8E371574CF6E0059E3AA /* ChildBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChildBrowserViewController.xib; path = "../../phonegap-plugins/iOS/ChildBrowser/ChildBrowserViewController.xib"; sourceTree = "<group>"; };
+		D7FD8E3B1574D01F0059E3AA /* ChildBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ChildBrowser.bundle; path = "../../phonegap-plugins/iOS/ChildBrowser/ChildBrowser.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +284,12 @@
 		D78A374B15675C0E00E6BC94 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				D7FD8E3B1574D01F0059E3AA /* ChildBrowser.bundle */,
+				D7FD8E331574CF6D0059E3AA /* ChildBrowserCommand.h */,
+				D7FD8E341574CF6D0059E3AA /* ChildBrowserCommand.m */,
+				D7FD8E351574CF6D0059E3AA /* ChildBrowserViewController.h */,
+				D7FD8E361574CF6E0059E3AA /* ChildBrowserViewController.m */,
+				D7FD8E371574CF6E0059E3AA /* ChildBrowserViewController.xib */,
 				D7FD8E2D1574CBC20059E3AA /* CDVBarcodeScanner.mm */,
 				D7FD8E2E1574CBC20059E3AA /* zxing-all-in-one.cpp */,
 				D7FD8E2F1574CBC20059E3AA /* zxing-all-in-one.h */,
@@ -355,6 +371,8 @@
 				D78A374A15675C0E00E6BC94 /* MainViewController.xib in Resources */,
 				D78A374E15675C0E00E6BC94 /* verify.sh in Resources */,
 				D78A375515675D2B00E6BC94 /* www in Resources */,
+				D7FD8E3A1574CF6E0059E3AA /* ChildBrowserViewController.xib in Resources */,
+				D7FD8E3C1574D01F0059E3AA /* ChildBrowser.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +417,8 @@
 				D78A374815675C0E00E6BC94 /* MainViewController.m in Sources */,
 				D7FD8E301574CBC20059E3AA /* CDVBarcodeScanner.mm in Sources */,
 				D7FD8E311574CBC20059E3AA /* zxing-all-in-one.cpp in Sources */,
+				D7FD8E381574CF6E0059E3AA /* ChildBrowserCommand.m in Sources */,
+				D7FD8E391574CF6E0059E3AA /* ChildBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
